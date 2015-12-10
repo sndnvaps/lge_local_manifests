@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <project name="CyanogenMod/android_device_lge_hammerheadcaf" path="device/lge/hammerheadcaf" remote="github" />
-  <project name="CyanogenMod/android_kernel_lge_hammerhead" path="kernel/lge/hammerhead" remote="github" revision="cm-12.1-caf" />
+  <project name="CyanogenMod/android_kernel_lge_hammerhead" path="kernel/lge/hammerhead" remote="github" revision="cm-13.0-caf" />
   <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" />
   <project name="CyanogenMod/android_device_lge_mako" path="device/lge/mako" remote="github" />
   <project name="CyanogenMod/android_kernel_google_msm" path="kernel/google/msm" remote="github" />
@@ -10,6 +10,6 @@
   <remove-project name="CyanogenMod/android_bootable_recovery" groups="pdk" />
   <project name="sndnvaps/android_bootable_recovery_twrp" path="bootable/recovery" remote="github" revision="cm-12.0-zh_CN" />
   <!-- vendor for lge device -->
-  <project name="sndnvaps/proprietary_vendor_lge" path="vendor/lge/" remote="github" revision="cm-12.1" />
+  <project name="sndnvaps/proprietary_vendor_lge" path="vendor/lge/" remote="github" revision="cm-13.0" />
 
 </manifest>
