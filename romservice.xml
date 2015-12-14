@@ -12,4 +12,8 @@
   <!-- vendor for lge device -->
   <project name="sndnvaps/proprietary_vendor_lge" path="vendor/lge/" remote="github" revision="cm-13.0" />
 
+  <!-- liblz4-static for twrp updater -->
+  <remove-project name="CyanogenMod/android_external_lz4" groups="pdk-cw-fs,pdk-fs" />
+  <project name="omnirom/android_external_lz4" path="external/lz4" remote="github" revision="android-6.0" />
+
 </manifest>
