@@ -8,7 +8,7 @@
   <!-- remove the CM bootable_recovery code  and replace it with my own change code -->
   <!--<remove-project name="CyanogenMod/android_bootable_recovery" /> -->
   <remove-project name="CyanogenMod/android_bootable_recovery" groups="pdk" />
-  <project name="sndnvaps/android_bootable_recovery_twrp" path="bootable/recovery" remote="github" revision="android-5.1-cn-dev" />
+  <project name="sndnvaps/android_bootable_recovery_twrp" path="bootable/recovery" remote="github" revision="android-6.0-cn-dev" />
   <!-- vendor for lge device -->
   <project name="sndnvaps/proprietary_vendor_lge" path="vendor/lge/" remote="github" revision="cm-13.0" />
 
